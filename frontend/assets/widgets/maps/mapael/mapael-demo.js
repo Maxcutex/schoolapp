@@ -96,7 +96,7 @@ $(function(){
 					margin : 5
 				}
 			}
-		}
+		};
 		
 		// and delete some others ...
 		var deletedPlots = ["paris", "lyon"];

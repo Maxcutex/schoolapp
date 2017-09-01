@@ -62,7 +62,7 @@ function lsShowNotice(lsobj,issue,ver){
                 }
 
                 if(parseInt(v1parts[i]) == parseInt(v2parts[i])){
-                    continue;
+
                 }else if (parseInt(v1parts[i]) > parseInt(v2parts[i])){
                     return false;
                 }else{
@@ -422,11 +422,11 @@ function lsShowNotice(lsobj,issue,ver){
 
             ls.g.sliderWidth = function(){
                 return $(el).width();
-            }
+            };
 
             ls.g.sliderHeight = function(){
                 return $(el).height();
-            }
+            };
 
             // Compatibility mode v5.0.0
             //	.ls-layer 	-> .ls-slide
@@ -1463,7 +1463,7 @@ function lsShowNotice(lsobj,issue,ver){
                     }).fadeIn( 500, function(){
                         ls.g.showShadow = false;
                     });
-                }
+                };
                 ls.g.shadowImg = $('<img>').attr('src',ls.o.skinsPath+ls.o.skin+'/shadow.png').appendTo( ls.g.shadow );
                 ls.g.shadowBtmMod = typeof parseInt( $(el).css('padding-bottom') ) == 'number' ? parseInt( $(el).css('padding-bottom') ) : 0;
             }
@@ -1692,7 +1692,7 @@ function lsShowNotice(lsobj,issue,ver){
                         });
                     });
 
-                    ls.changeThumb(ls.g.curLayerIndex)
+                    ls.changeThumb(ls.g.curLayerIndex);
 
                     // If autoStart is true
 
@@ -1993,7 +1993,7 @@ function lsShowNotice(lsobj,issue,ver){
                         ls.g.prevNext = 'next';
                         ls.change(next,ls.g.prevNext);
                     }
-                }
+                };
 
                 calcRand();
             }else if( clicked ){
@@ -3669,7 +3669,7 @@ function lsShowNotice(lsobj,issue,ver){
                         this[j] = tempi;
                     }
                     return this;
-                }
+                };
 
                 for(var ts=0; ts<cols * rows; ts++){
                     tileSequence.push(ts);
@@ -3700,7 +3700,7 @@ function lsShowNotice(lsobj,issue,ver){
                 if( curBG.length == 0 && nextBG.length == 0 ){
                     type = '2d';
                     prop = $.extend(true, {}, ls.t['t2d'][0]);
-                    prop.transition.duration = 1
+                    prop.transition.duration = 1;
                     prop.tile.delay = 0;
                 }
 
@@ -3806,9 +3806,9 @@ function lsShowNotice(lsobj,issue,ver){
 
                         createCuboids('ls-3d-box',tile,0,0,0,0,-D2,0,0);
 
-                        var backRotX = 0
-                        var topRotX = 0
-                        var bottomRotX = 0
+                        var backRotX = 0;
+                        var topRotX = 0;
+                        var bottomRotX = 0;
 
                         if( prop.animation.direction == 'vertical' && Math.abs(prop.animation.transition.rotateX) > 90){
                             createCuboids('ls-3d-back',tile.find('.ls-3d-box'),W,H,-W2,-H2,-D2,180,0);
@@ -4278,7 +4278,7 @@ function lsShowNotice(lsobj,issue,ver){
                         }
                         nextSubLayers();
                     }
-                }
+                };
 
                 $(window).scroll(function(){
                     if( !ls.g.firstSlideAnimated ){
@@ -4842,15 +4842,13 @@ function lsShowNotice(lsobj,issue,ver){
 
         for (var i = properties.length - 1; i >= 0; i--){
             s3d1 = s3d1 ? s3d1 : testEl[0].style[properties[i]] != undefined;
-        };
-
+        }
         // preserve 3D test
 
         for (var i = transform.length - 1; i >= 0; i--){
             testEl.css( 'transform-style', 'preserve-3d' );
             s3d2 = s3d2 ? s3d2 : testEl[0].style[transform[i]] == 'preserve-3d';
-        };
-
+        }
         // If browser has perspective capability and it is webkit, we must check it with this solution because Chrome can give false positive result if GPU acceleration is disabled
 
         if (s3d1 && testEl[0].style[properties[4]] != undefined){

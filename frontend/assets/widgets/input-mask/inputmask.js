@@ -47,8 +47,7 @@
                     this.isQuantifier = isQuantifier || false;
                     this.isAlternator = isAlternator || false;
                     this.quantifier = { min: 1, max: 1 };
-                };
-
+                }
                 //test definition => {fn: RegExp/function, cardinality: int, optionality: bool, newBlockMarker: bool, casing: null/upper/lower, def: definitionSymbol, placeholder: placeholder, mask: real maskDefinition}
                 function insertTestDefinition(mtoken, element, position) {
                     var maskdef = opts.definitions[element];
@@ -434,7 +433,7 @@
                     }
                 }
                 return valid;
-            };
+            }
             function getTests(pos, ndxIntlzr, tstPs) {
                 var maskTokens = getMaskSet()["maskToken"], testPos = ndxIntlzr ? tstPs : 0, ndxInitializer = ndxIntlzr || [0], matches = [], insertStop = false;
                 function ResolveTestFromToken(maskToken, ndxInitializer, loopNdx, quantifierRecurse) { //ndxInitilizer contains a set of indexes to speedup searches in the mtokens
@@ -762,7 +761,7 @@
                 if (position <= 0) return 0;
 
                 while (--position > 0 && !isMask(position)) {
-                };
+                }
                 return position;
             }
 
@@ -1599,8 +1598,7 @@
                         break;
                 }
             }
-        };
-
+        }
         $.inputmask = {
             //options default
             defaults: {

@@ -69,10 +69,10 @@ $(document).ready(function() {
 
     $(".next").click(function() {
         owl.trigger('owl.next');
-    })
+    });
     $(".prev").click(function() {
         owl.trigger('owl.prev');
-    })
+    });
 
     $(".owl-slider-1").owlCarousel({
         lazyLoad: true,

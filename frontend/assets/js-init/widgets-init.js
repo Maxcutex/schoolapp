@@ -66,7 +66,7 @@ $(function() { "use strict";
 $(function() { "use strict";
 
   $('.loading-button').click(function() {
-      var btn = $(this)
+      var btn = $(this);
       btn.button('loading');
   });
 
@@ -136,7 +136,7 @@ var getUIColor = function (name) {
     } else {
         return mUIColors['default'];
     }
-}
+};
 
 /* Screenfull */
 

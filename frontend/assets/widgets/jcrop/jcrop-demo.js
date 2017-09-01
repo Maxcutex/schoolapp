@@ -32,12 +32,10 @@ function showCoords(c) {
     $('#y2').val(c.y2);
     $('#w').val(c.w);
     $('#h').val(c.h);
-};
-
+}
 function clearCoords() {
     $('#coords input').val('');
-};
-
+}
 jQuery(function($) {
 
     // Create variables (in this scope) to hold the API and image size
@@ -81,8 +79,7 @@ jQuery(function($) {
                 marginTop: '-' + Math.round(ry * c.y) + 'px'
             });
         }
-    };
-
+    }
 });
 
 
@@ -200,7 +197,7 @@ jQuery(function($) {
                 '<div class="btn-toolbar"><div class="btn-group"></div></div>'
             )
         );
-    };
+    }
     // Handler for option-setting buttons
     function setoptHandler(k, v) {
         return function(e) {
@@ -211,7 +208,7 @@ jQuery(function($) {
             jcrop_api.setOptions(opt);
             return false;
         };
-    };
+    }
     // Handler for animation buttons
     function animHandler(v) {
         return function(e) {
@@ -221,8 +218,7 @@ jQuery(function($) {
             });
             return false;
         };
-    };
-
+    }
     $('#bgo_buttons .btn:first,#bgc_buttons .btn:last').addClass('active');
     $('#interface').show();
 

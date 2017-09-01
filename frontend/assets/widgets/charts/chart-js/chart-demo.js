@@ -24,7 +24,7 @@ $(function(){
             }
         ]
 
-    }
+    };
     var ctx = document.getElementById("canvas-1").getContext("2d");
     window.myBar = new Chart(ctx).Bar(barChartData, {
         responsive : true
@@ -97,7 +97,7 @@ $(function(){
             }
         ]
 
-    }
+    };
 
     var ctx = document.getElementById("canvas-2").getContext("2d");
     window.myLine = new Chart(ctx).Line(lineChartData, {

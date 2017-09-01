@@ -1892,7 +1892,7 @@
                 for (var j = 0; j < subscribed[name][i].instance.fields.length; j++)
                     if (subscribed[name][i].instance.fields[j].__id__ === instance.__id__) {
                         subscribed[name][i].fn.apply(o, Array.prototype.slice.call(arguments, 1));
-                        continue;
+
                     }
         }
     };

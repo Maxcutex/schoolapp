@@ -1920,7 +1920,7 @@
                     this.formatBlock($editable, 'H' + idx);
                 };
             }(idx);
-        };
+        }
         /* jshint ignore:end */
 
         /**

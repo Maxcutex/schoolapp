@@ -349,7 +349,7 @@ $(function() {
             280.71,
             210.32,
             325.42
-        ]
+        ];
 
     map = new jvm.WorldMap({
         container: $('#map-hu'),

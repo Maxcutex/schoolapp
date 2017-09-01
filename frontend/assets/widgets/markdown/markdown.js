@@ -251,8 +251,8 @@ else
             // "paragraphs" that are wrapped in non-block-level tags, such as anchors,
             // phrase emphasis, and spans. The list of tags we're looking for is
             // hard-coded:
-            var block_tags_a = "p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del"
-            var block_tags_b = "p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math"
+            var block_tags_a = "p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del";
+            var block_tags_b = "p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math";
 
             // First, look for nested blocks, e.g.:
             //   <div>
@@ -1137,7 +1137,7 @@ else
                 else if (/\S/.test(str)) {
                     str = _RunSpanGamut(str);
                     str = str.replace(/^([ \t]*)/g, "<p>");
-                    str += "</p>"
+                    str += "</p>";
                     grafsOut.push(str);
                 }
 
@@ -1206,7 +1206,7 @@ else
 
             //  autolink anything like <http://example.com>
 
-            var replacer = function (wholematch, m1) { return "<a href=\"" + m1 + "\">" + pluginHooks.plainLinkText(m1) + "</a>"; }
+            var replacer = function (wholematch, m1) { return "<a href=\"" + m1 + "\">" + pluginHooks.plainLinkText(m1) + "</a>"; };
             text = text.replace(/<((https?|ftp):[^'">\s]+)>/gi, replacer);
 
             // Email addresses: <address@domain.foo>
@@ -1224,9 +1224,9 @@ else
              */
 
             var email_replacer = function(wholematch, m1) {
-                var mailto = 'mailto:'
-                var link
-                var email
+                var mailto = 'mailto:';
+                var link;
+                var email;
                 if (m1.substring(0, mailto.length) != mailto){
                     link = mailto + m1;
                     email = m1;
@@ -1235,7 +1235,7 @@ else
                     email = m1.substring(mailto.length, m1.length);
                 }
                 return "<a href=\"" + link + "\">" + pluginHooks.plainLinkText(email) + "</a>";
-            }
+            };
             text = text.replace(/<((?:mailto:)?([-.\w]+\@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+))>/gi, email_replacer);
 
             return text;
@@ -1265,7 +1265,7 @@ else
             text = text.replace(/^(\t|[ ]{1,4})/gm, "~0"); // attacklab: g_tab_width
 
             // attacklab: clean up hack
-            text = text.replace(/~0/g, "")
+            text = text.replace(/~0/g, "");
 
             return text;
         }
@@ -1406,7 +1406,7 @@ else
          * image url (or null if the user cancelled). If this hook returns false, the default dialog will be used.
          */
 
-        this.getConverter = function () { return markdownConverter; }
+        this.getConverter = function () { return markdownConverter; };
 
         var that = this,
             panels;
@@ -1441,7 +1441,7 @@ else
             forceRefresh();
         };
 
-    }
+    };
 
     // before: contains all the text in the input box BEFORE the selection.
     // after: contains all the text in the input box AFTER the selection.
@@ -1502,7 +1502,7 @@ else
         if (remove) {
             beforeReplacer = afterReplacer = "";
         } else {
-            beforeReplacer = function (s) { that.before += s; return ""; }
+            beforeReplacer = function (s) { that.before += s; return ""; };
             afterReplacer = function (s) { that.after = s + that.after; return ""; }
         }
 
@@ -1595,8 +1595,7 @@ else
         this.buttonBar = doc.getElementById("wmd-button-bar" + postfix);
         this.preview = doc.getElementById("wmd-preview" + postfix);
         this.input = doc.getElementById("wmd-input" + postfix);
-    };
-
+    }
     // Returns true if the DOM element is visible, false if it's hidden.
     // Checks if display is anything other than none.
     util.isVisible = function (elem) {
@@ -1677,7 +1676,7 @@ else
         pattern = pre + pattern + post;
 
         return new re(pattern, flags);
-    }
+    };
 
     // UNFINISHED
     // The assignment in the while loop makes jslint cranky.
@@ -1894,7 +1893,7 @@ else
                 if (window.event) {
                     window.event.returnValue = false;
                 }
-                return;
+
             }
         };
 
@@ -1995,7 +1994,7 @@ else
                 this.text = inputArea.value;
             }
 
-        }
+        };
 
         // Sets the selected text in the input box after we've performed an
         // operation.
@@ -2112,8 +2111,7 @@ else
             this.scrollTop = chunk.scrollTop;
         };
         this.init();
-    };
-
+    }
     function PreviewManager(converter, panels, previewRefreshCallback) {
 
         var managerObj = this;
@@ -2247,11 +2245,11 @@ else
                 parent.appendChild(preview);
             else
                 parent.insertBefore(preview, sibling);
-        }
+        };
 
         var nonSuckyBrowserPreviewSet = function (text) {
             panels.preview.innerHTML = text;
-        }
+        };
 
         var previewSetter;
 
@@ -2307,9 +2305,7 @@ else
         };
 
         init();
-    };
-
-
+    }
     // This simulates a modal dialog box and asks for the URL when you
     // click the hyperlink or image buttons.
     //
@@ -2479,11 +2475,11 @@ else
 
             $(dialog).on('shown', function () {
                 input.focus();
-            })
+            });
 
             $(dialog).on('hidden', function () {
                 dialog.parentNode.removeChild(dialog);
-            })
+            });
 
             $(dialog).modal()
 
@@ -2650,8 +2646,7 @@ else
             if (button.execute) {
                 button.execute(undoManager);
             }
-        };
-
+        }
         function setupButton(button, isEnabled) {
 
             if (isEnabled) {
@@ -2694,7 +2689,7 @@ else
                 button.id = id + postfix;
                 button.appendChild(buttonImage);
                 button.title = title;
-                $(button).tooltip({placement: 'bottom', container: 'body'})
+                $(button).tooltip({placement: 'bottom', container: 'body'});
                 if (textOp)
                     button.textOp = textOp;
                 setupButton(button, true);
@@ -2711,7 +2706,7 @@ else
                 group.id = "wmd-button-group" + num + postfix;
                 buttonRow.appendChild(group);
                 return group
-            }
+            };
 
             group1 = makeGroup(1);
             buttons.bold = makeButton("wmd-bold-button", "Bold - Ctrl+B", "glyph-icon icon-bold", bindCommand("doBold"), group1);
@@ -2759,7 +2754,7 @@ else
                 helpButton.id = "wmd-help-button" + postfix;
                 helpButton.isHelp = true;
                 helpButton.title = helpOptions.title || defaultHelpHoverTitle;
-                $(helpButton).tooltip({placement: 'bottom', container: 'body'})
+                $(helpButton).tooltip({placement: 'bottom', container: 'body'});
                 helpButton.onclick = helpOptions.handler;
 
                 setupButton(helpButton, true);
@@ -2775,8 +2770,7 @@ else
                 setupButton(buttons.undo, undoManager.canUndo());
                 setupButton(buttons.redo, undoManager.canRedo());
             }
-        };
-
+        }
         this.setUndoRedoButtonStates = setUndoRedoButtonStates;
 
     }
@@ -2862,7 +2856,7 @@ else
             chunk.after = markup + chunk.after;
         }
 
-        return;
+
     };
 
     commandProto.stripLinkDefs = function (text, defsToAdd) {
@@ -3479,7 +3473,7 @@ else
         converter.hooks.chain("postConversion", sanitizeHtml);
         converter.hooks.chain("postConversion", balanceTags);
         return converter;
-    }
+    };
 
     function sanitizeHtml(html) {
         return html.replace(/<[^>]*>?/gi, sanitizeTag);

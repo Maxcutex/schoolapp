@@ -13,8 +13,6 @@
     }
 })(function($, moment) {
 
-    ;;
-
     var defaults = {
 
         lang: 'en',
@@ -164,8 +162,6 @@
 
 
 
-    ;;
-
     var fc = $.fullCalendar = { version: "2.0.2" };
     var fcViews = fc.views = {};
 
@@ -244,8 +240,6 @@
 // FIX: find a different solution for view-option-hashes and have a whitelist
 // for options that can be recursively merged.
 
-    ;;
-
 //var langOptionHash = {}; // initialized in defaults.js
     fc.langs = langOptionHash; // expose
 
@@ -317,9 +311,6 @@
         // set it as the default language for FullCalendar
         defaults.lang = langCode;
     };
-    ;;
-
-
     function Calendar(element, instanceOptions) {
         var t = this;
 
@@ -1075,8 +1066,6 @@
 
     }
 
-    ;;
-
     function Header(calendar, options) {
         var t = this;
 
@@ -1248,8 +1237,6 @@
 
 
     }
-
-    ;;
 
     fc.sourceNormalizers = [];
     fc.sourceFetchers = [];
@@ -1964,8 +1951,6 @@
         event._end = event.end ? event.end.clone() : null;
     }
 
-    ;;
-
     fc.applyAll = applyAll;
 
 
@@ -2247,8 +2232,6 @@
         }
     }
 
-
-    ;;
 
     var ambigDateOfMonthRegex = /^\s*\d{4}-\d\d$/;
     var ambigTimeOrZoneRegex = /^\s*\d{4}-(?:(\d\d-\d\d)|(W\d\d$)|(W\d\d-\d)|(\d\d\d))((T| )(\d\d(:\d\d(:\d\d(\.\d+)?)?)?)?)?$/;
@@ -2614,8 +2597,6 @@
         return outputs;
     }
 
-    ;;
-
 // Single Date Formatting
 // -------------------------------------------------------------------------------------------------
 
@@ -2841,8 +2822,6 @@
         return chunks;
     }
 
-    ;;
-
     fcViews.month = MonthView;
 
     function MonthView(element, calendar) {
@@ -2894,8 +2873,6 @@
 
     }
 
-    ;;
-
     fcViews.basicWeek = BasicWeekView;
 
     function BasicWeekView(element, calendar) { // TODO: do a WeekView mixin
@@ -2937,8 +2914,6 @@
 
     }
 
-    ;;
-
     fcViews.basicDay = BasicDayView;
 
     function BasicDayView(element, calendar) { // TODO: make a DayView mixin
@@ -2973,8 +2948,6 @@
 
 
     }
-
-    ;;
 
     setDefaults({
         weekMode: 'fixed'
@@ -3487,8 +3460,6 @@
 
     }
 
-    ;;
-
     function BasicEventRenderer() {
         var t = this;
 
@@ -3515,8 +3486,6 @@
         // TODO: have this class (and AgendaEventRenderer) be responsible for creating the event container div
 
     }
-
-    ;;
 
     fcViews.agendaWeek = AgendaWeekView;
 
@@ -3559,8 +3528,6 @@
 
     }
 
-    ;;
-
     fcViews.agendaDay = AgendaDayView;
 
     function AgendaDayView(element, calendar) { // TODO: make a DayView mixin
@@ -3595,8 +3562,6 @@
 
 
     }
-
-    ;;
 
     setDefaults({
         allDaySlot: true,
@@ -4555,8 +4520,6 @@
 
     }
 
-    ;;
-
     function AgendaEventRenderer() {
         var t = this;
 
@@ -5499,9 +5462,6 @@
     }
 
 
-    ;;
-
-
     function View(element, calendar, viewName) {
         var t = this;
 
@@ -6008,8 +5968,6 @@
 
 
     }
-
-    ;;
 
     function DayEventRenderer() {
         var t = this;
@@ -6775,8 +6733,6 @@
     }
 
 
-    ;;
-
 //BUG: unselect needs to be triggered when events are dragged+dropped
 
     function SelectionManager() {
@@ -6899,8 +6855,6 @@
 
     }
 
-    ;;
-
     function OverlayManager() {
         var t = this;
 
@@ -6937,8 +6891,6 @@
 
 
     }
-
-    ;;
 
     function CoordinateGrid(buildFunc) {
 
@@ -6985,8 +6937,6 @@
         };
 
     }
-
-    ;;
 
     function HoverListener(coordinateGrid) {
 
@@ -7049,8 +6999,6 @@
             event.pageY = event.originalEvent.pageY;
         }
     }
-    ;;
-
     function HorizontalPositionCache(getElement) {
 
         var t = this,
@@ -7077,7 +7025,5 @@
         };
 
     }
-
-    ;;
 
 });

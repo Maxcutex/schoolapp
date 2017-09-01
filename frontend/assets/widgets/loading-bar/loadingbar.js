@@ -41,7 +41,7 @@
             href = el.attr("href"),
             target = (el.data("target")) ? el.data("target") : settings.target,
             type = (el.data("type")) ? el.data("type") : settings.type,
-            datatype = (el.data("datatype")) ? el.data("datatype") : settings.dataType
+            datatype = (el.data("datatype")) ? el.data("datatype") : settings.dataType;
 
         return this.each(function(){
             el.click(function (){
@@ -59,7 +59,7 @@
                     dataType : datatype,
                     beforeSend: function() {
                         if ($("#loadingbar").length === 0) {
-                            $("body").append("<div id='loadingbar'></div>")
+                            $("body").append("<div id='loadingbar'></div>");
                             $("#loadingbar").addClass("waiting").append($("<dt/><dd/>"));
 
                             switch (settings.direction) {
