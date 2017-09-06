@@ -21,8 +21,8 @@
                         <h2>Best For Education</h2>
                         <p>Monotonely principle centered ahitectures through and standards magnetic metrics whereas cross functional products.</p>
                         <ul>
-                            <li><a href="#" class="button-default">Read More</a></li>
-                            <li><a href="#" class="button-default">Buy Now</a></li>
+                            <li><a href="#" class="button-default">Request A Demo</a></li>
+                            <li><a href="#" class="button-default">Sign Up For a Free Account</a></li>
                         </ul>
                     </div><!-- banner-content -->
                 </div><!-- container -->
@@ -35,8 +35,8 @@
                         <h2>Best For Education</h2>
                         <p>Monotonely principle centered ahitectures through and standards magnetic metrics whereas cross functional products.</p>
                         <ul>
-                            <li><a href="#" class="button-default">Read More</a></li>
-                            <li><a href="#" class="button-default">Buy Now</a></li>
+                            <li><a href="#" class="button-default">Request A Demo</a></li>
+                            <li><a href="#" class="button-default">Sign Up For a Free Account</a></li>
                         </ul>
                     </div><!-- banner-content -->
                 </div><!-- container -->
@@ -49,8 +49,8 @@
                         <h2>Best For Education</h2>
                         <p>Monotonely principle centered ahitectures through and standards magnetic metrics whereas cross functional products.</p>
                         <ul>
-                            <li><a href="#" class="button-default">Read More</a></li>
-                            <li><a href="#" class="button-default">Buy Now</a></li>
+                            <li><a href="#" class="button-default">Request A Demo</a></li>
+                            <li><a href="#" class="button-default">Sign Up For a Free Account</a></li>
                         </ul>
                     </div><!-- banner-content -->
                 </div><!-- container -->
@@ -96,6 +96,14 @@
                 </div><!-- facility item -->
             </div>
         </div><!-- row -->
+
+        <div class="row2"><div class="col-sm-6 featured-item"><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-1-2.svg"><h6 class="featured-item__title">Built for You</h6><p class="featured-item__content">Designed specifically to meet the needs of early education—brightwheel was built to be your all-in-one solution.</p></div><div class="col-sm-6 featured-item"><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-4-2.svg"><h6 class="featured-item__title">Fast &amp; Easy to Use</h6><p class="featured-item__content">Get setup in literally minutes! No training requires. Powerful, but simple and easy to use.</p></div></div>
+        <div class="row2"><div class="col-sm-4 featured-item"><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-3-2.svg"><h6 class="featured-item__title">Save Time</h6><p class="featured-item__content">In time studies, brightwheel saves as much as one hour per day per staff member. More time for what matters!</p><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-5-2.svg"><h6 class="featured-item__title">Digital Attendance &amp; Sign In</h6><p class="featured-item__content">Secure check-in/out for both students and staff via kiosk mode, check-in code, or digital signatures allowing real time student:teacher ratios</p></div><div class="col-sm-4"><img class="features-block__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/profile-feed-phone@3x.png-519x1024.png" height="515px"></div><div class="col-sm-4 featured-item"><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-2-2.svg"><h6 class="featured-item__title">Save Money</h6><p class="featured-item__content">No installation or setup fees. And no more paper to buy! Works on any device.</p><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-6-2.svg"><h6 class="featured-item__title">Daily Reports &amp; Assessment</h6><p class="featured-item__content">Automated daily reports with activities, notes, photos, and videos - personalized for each of your families.</p></div></div>
+        <div class="row2"><div class="col-sm-6 featured-item"><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-7-2.svg"><h6 class="featured-item__title">Paperless Invoicing &amp; Bill Pay</h6><p class="featured-item__content">School payments simplified. Automated invoicing receipts. Works with ACH, credit cards, checks, or cash.</p></div><div class="col-sm-6 featured-item"><img class="featured-item__image" src="http://mybrightwheel.com/wp-content/uploads/2017/08/Asset-8-2.svg"><h6 class="featured-item__title">Mobile Apps + Web</h6><p class="featured-item__content">Seamless Sync means real-time updates between teachers and across devices - iPhone, iPad, iPod, Android, and web.</p></div></div>
+
+
+
+
     </div><!-- container -->
 </section><!-- facility -->
 <!-- facility End here -->
@@ -108,13 +116,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="about-image">
-                        <img src="{{asset('/schoolFrontend/images/about/about.png')}}" alt="about image" class="img-responsive">
+                        <img src="{{asset('/schoolFrontend/images/mobileapp/ipad-final-1024x703.png')}}" alt="about image" class="img-responsive">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="about-content">
-                        <h3>About Our KidsAcademy</h3>
-                        <p>Enthusiasticay diseminate competitive oportunitie through transparent an actions Compelngly seize viral schemas through intermandated creative is adiea sources. Enthusiasticay plagiarize clientcentered relationship for the covalent experiences. Distinctively architect 24/365 service for wireless is ebusiness ahosfluorescently Efficiently comunicate coperative methods of empowerment awesome athrough Monotonectaly myocardinate cross and functional niche markets and an functional.</p>
+                        <h3>Managing with just a Click</h3>
+                        <p>Managing classrooms and supervision of what is going on has never been easier. Enthusiasticay plagiarize clientcentered relationship for the covalent experiences. Distinctively architect 24/365 service for wireless is ebusiness ahosfluorescently Efficiently comunicate coperative methods of empowerment awesome athrough Monotonectaly myocardinate cross and functional niche markets and an functional.</p>
                         <ul>
                             <li><a href="#" class="button-default">Read More</a></li>
                             <li><a href="#" class="button-default">Buy Now</a></li>
