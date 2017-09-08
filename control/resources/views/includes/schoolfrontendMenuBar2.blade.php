@@ -14,13 +14,13 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li class="active"><a href="/index">Home Style 01</a></li>
+                            <li><a href="/index">Home Style 01</a></li>
+                            <li class="active"><a href="/index2">Home Style 02</a></li>
 
-                            <li ><a href="/index2">Home Style 02</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -70,6 +70,10 @@
                         </ul>
                     </li>
                     <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
                     <li><span class="menu-search"><i class="fa fa-search" aria-hidden="true"></i></span></li>
                     <li class="menu_cart dropdown"><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
                         <ul class="dropdown-menu first_dropdown shop_feature">
@@ -110,7 +114,7 @@
                             <li><a href="shop-cart.html" class="button-default check_out">Check Out</a></li>
                         </ul>
                     </li>
-
+                    <li class="menu-button"><a href="#" class="button-default">Admission Now</a></li>
                 </ul>
                 <form class="menu-search-form">
                     <input type="text" name="search" placeholder="Search here...">

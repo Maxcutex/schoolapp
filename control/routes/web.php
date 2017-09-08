@@ -79,6 +79,12 @@ Route::get('avatars/{name}', 'EmployeeManagementController@load');
 Route::get('/', function () {
     return view('schoolFrontend.index');  // return view('frontend.index');
 });
+Route::get('/index', function () {
+    return view('schoolFrontend.index');
+});
+Route::get('/index2', function () {
+    return view('schoolFrontend.index2');
+});
 Route::get('/contact', function () {
     return view('frontend.contact');
 });
