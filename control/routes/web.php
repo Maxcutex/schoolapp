@@ -86,14 +86,14 @@ Route::get('/index2', function () {
     return view('schoolFrontend.index2');
 });
 Route::get('/contact', function () {
-    return view('frontend.contact');
+    return view('schoolFrontend.contact');
 });
 Route::get('/news', function () {
-    return view('frontend.news ');
+    return view('schoolFrontend.news ');
 });
 
 Route::get('/about', function () {
-    return view('frontend.about ');
+    return view('schoolFrontend.about ');
 });
 
 
