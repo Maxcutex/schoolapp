@@ -31,7 +31,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4af280d8-152e-496e-a7a9-d1dcd7c1da87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/flaticon/Flaticon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/flaticon/Flaticon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/flaticon/Flaticon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/fonts/lightcase.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/about/about-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/about/about-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/about/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/about-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/achievements-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/blog-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/facility-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/footer-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/gallery-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/page-header-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/partner-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/teacher-bg-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/teacher-bg-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/teacher-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/background/testimonial-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/banner/banner_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/blog_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/blog_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/blog_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/footer_post_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/footer_post_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/footer_post_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/gallery_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/latest_post_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/latest_post_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/latest_post_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/latest_post_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/post_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/post_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/post_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/post_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/user_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/user_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/blog/user_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class-single.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/classes/class_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/error_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/error_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/event/event_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/feature.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/gallery_bg_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/gallery/menu-icon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/mobileapp/ipad-final-1024x703.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/partner/partner_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/partner/partner_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/partner/partner_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/partner/partner_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/partner/partner_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/cart_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/cart_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/cart_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/cart_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/cart_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/menu_cart_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/menu_cart_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/menu_cart_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/product_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/recent_product_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/recent_product_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/recent_product_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/recent_product_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/rel_product_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/rel_product_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/rel_product_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/rel_product_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/review_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/review_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/review_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/review_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_bg_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_bg_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_bg_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_bg_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_bg_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_bg_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_sm_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_sm_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_sm_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_sm_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_sm_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/product/slider_sm_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/section_notch_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/section_notch_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/sidebar/gallery_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/award_01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/award_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/award_03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/award_04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher-details.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/teachers/teacher_16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/testimonial/testimonial_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/testimonial/testimonial_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/testimonial/testimonial_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/testimonial/testimonial_icon_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/testimonial/testimonial_icon_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/images/testimonial/testimonial_icon_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/includes/schoolfrontendFooter.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/includes/schoolfrontendMenuBar2.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/includes/schoolfrontendMenubar.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/includes/schoolfrontendTopbar.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/includes/schoolfrontendTopbar2.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/layouts/schoolFrontEndMaster.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/schoolFrontend/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/control/resources/views/schoolFrontend/index2.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/flexslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/jquery.nstSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/lightcase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/quick-view.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/flaticon/Flaticon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/flaticon/flaticon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/circle-progress.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/coundown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/flexslider-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/isotope.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/jquery-1.12.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/jquery.counterup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/jquery.nstSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/lightcase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/quick-view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/swiper.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/velocity.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/waypoints/2.0.3/waypoints.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/auto_sync.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/composerJson.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LaravelBackend1.iml" afterPath="$PROJECT_DIR$/.idea/LaravelBackend1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/routes/web.php" afterPath="$PROJECT_DIR$/control/routes/web.php" />
     </list>
     <ignored path="Laravel.iws" />
@@ -67,28 +308,33 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="1360">
+              <caret line="89" column="34" lean-forward="false" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+              <folding>
+                <marker date="1505551529037" expanded="true" signature="4247:4265" ph="..." />
+                <marker date="1505551529037" expanded="true" signature="4247:4266" ph="..." />
+                <marker date="1505551529037" expanded="true" signature="4282:4352" ph="..." />
+                <marker date="1505551529037" expanded="true" signature="4313:4351" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CityController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/control/app/Http/Controllers/CityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -223,9 +469,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/control/node_modules" />
   </component>
   <component name="PhpServers">
     <servers />
@@ -508,7 +751,7 @@
       <workItem from="1504263614885" duration="4481000" />
       <workItem from="1504380261337" duration="905000" />
       <workItem from="1504521524763" duration="3327000" />
-      <workItem from="1505549189963" duration="278000" />
+      <workItem from="1505549189963" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1504265329761</created>
@@ -535,7 +778,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548699000" />
+    <option name="totallyTimeSpent" value="549501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -548,15 +791,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1523" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29528368" sideWeight="0.49323016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.50239563" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.50786054" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33737025" sideWeight="0.4969325" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.49212867" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32820514" sideWeight="0.49213943" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25940338" sideWeight="0.47775495" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -772,24 +1014,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/control/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/control/app/Http/Controllers/CityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="1360">
+          <caret line="89" column="34" lean-forward="false" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+          <folding>
+            <marker date="1505551529037" expanded="true" signature="4247:4265" ph="..." />
+            <marker date="1505551529037" expanded="true" signature="4247:4266" ph="..." />
+            <marker date="1505551529037" expanded="true" signature="4282:4352" ph="..." />
+            <marker date="1505551529037" expanded="true" signature="4313:4351" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/control/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/app/Http/Controllers/CityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
