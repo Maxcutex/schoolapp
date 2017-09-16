@@ -23,7 +23,7 @@ class CreateChildrenTable extends Migration
             $table->integer('school_id');
             $table->softDeletes();
             $table->timestamps();
-            $table->foreign('school_id')->references('id')->on('schools')->onDelete('cascade');
+            $table->foreign('school_id')->references('id')->on('schools');
         });
     }
 

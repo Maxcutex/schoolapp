@@ -20,8 +20,8 @@ class CreateParentsTable extends Migration
             $table->date('date_added');
             $table->softDeletes();
             $table->timestamps();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('child_id')->references('id')->on('children')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('child_id')->references('id')->on('children');
 
         });
     }

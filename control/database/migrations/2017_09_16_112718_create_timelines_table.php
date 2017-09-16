@@ -22,8 +22,8 @@ class CreateTimelinesTable extends Migration
             $table->string('activity_loom')->nullable();
             $table->softDeletes();
             $table->timestamps();
-            $table->foreign('child_id')->references('id')->on('children')->onDelete('cascade');
-            $table->foreign('activity_id')->reference('id')->on('activities')->onDelete('cascade');
+            $table->foreign('child_id')->references('id')->on('children');
+            $table->foreign('activity_id')->reference('id')->on('activities');
         });
     }
 

@@ -19,7 +19,7 @@ class CreateSchoolSessionsTable extends Migration
             $table->integer('school_id')->unsigned();
             $table->integer('is_active')->default(0);
             $table->timestamps();
-            $table->foreign('school_id')->references('id')->on('schools')->onDelete('cascade');;
+            $table->foreign('school_id')->references('id')->on('schools');
         });
     }
 
