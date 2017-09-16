@@ -1944,7 +1944,7 @@
         if ('undefined' === typeof element)
             throw new Error('You must give an element');
         if ('undefined' !== typeof parsleyFormInstance && 'ParsleyForm' !== parsleyFormInstance.__class__)
-            throw new Error('Parent instance must be a ParsleyForm instance');
+            throw new Error('Guardian instance must be a ParsleyForm instance');
         return this.init($(element), options, parsleyFormInstance);
     };
     Parsley.prototype = {

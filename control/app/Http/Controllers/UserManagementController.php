@@ -3,8 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
-use App\User;
+use DB;
+use App\Models\User;
+use Illuminate\Support\Facades\Log;
+use Mail;
+use App\Mail\NewUserEmail;
+use App\Helpers\ActivationClass;
 
 class UserManagementController extends Controller
 {
@@ -55,14 +59,24 @@ class UserManagementController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validateInput($request);
-         User::create([
-            'username' => $request['username'],
-            'email' => $request['email'],
-            'password' => bcrypt($request['password']),
-            'firstname' => $request['firstname'],
-            'lastname' => $request['lastname']
-        ]);
+        try{
+            $this->validateInput($request);
+            $user = User::create([
+                'username' => $request['username'],
+                'email' => $request['email'],
+                'password' => bcrypt($request['password']),
+                'firstname' => $request['firstname'],
+                'lastname' => $request['lastname'],
+                'dob' => $request['dob']
+            ]);
+            $activation = new ActivationClass($user);
+            $code = $activation->create()->getCode();
+            $this->sendMail($user, $code);
+        }catch (\Exception $e){
+            Log::info($e->getMessage());
+            return redirect()->intended('backend/user-management')->withErrors('User creation failed');
+        }
+
 
         return redirect()->intended('backend/user-management');
     }
@@ -171,11 +185,18 @@ class UserManagementController extends Controller
     }
     private function validateInput($request) {
         $this->validate($request, [
-        'username' => 'required|max:20',
-        'email' => 'required|email|max:255|unique:users',
-        'password' => 'required|min:6|confirmed',
-        'firstname' => 'required|max:60',
-        'lastname' => 'required|max:60'
-    ]);
+            'username' => 'required|max:20',
+            'email' => 'required|email|max:255|unique:users',
+            'password' => 'required|min:6|confirmed',
+            'firstname' => 'required|max:60',
+            'lastname' => 'required|max:60'
+        ]);
+    }
+    protected function sendMail($user, $code)
+    {
+        $activate = new  NewUserEmail($user, $code);
+        Mail::to($user->email)->send($activate);
+
+        // Mail::to($event->user->email)->send(new NewUserWelcome($event->user));
     }
 }

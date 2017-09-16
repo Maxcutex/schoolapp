@@ -20,10 +20,12 @@ class CreateChildrenTable extends Migration
             $table->string('lastname');
             $table->date('dob');
             $table->string('current_class');
+            $table->integer('guardian_id');
             $table->integer('school_id');
             $table->softDeletes();
             $table->timestamps();
             $table->foreign('school_id')->references('id')->on('schools');
+            $table->foreign('guardian_id')->references('id')->on('guardians');
         });
     }
 

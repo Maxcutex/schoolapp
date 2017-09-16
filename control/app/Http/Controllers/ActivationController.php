@@ -2,17 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Sentinel;
-use Activation;
+use App\Helpers\ActivationClass;
 use Illuminate\Http\Request;
-use App\User;
+use App\Models\User;
 
 class ActivationController extends Controller
 {
     public function activate($email,$activationCode){
-        $user = User::whereEmail($email)->first();
-        $sentinelUser = Sentinel::findById($user->id);
-        if (Activation::complete($sentinelUser, $activationCode)){
+        $user = User::whereEmail($email)->firstOrFail();
+        $activate = new ActivationClass($user);
+        if ($activate->complete($activationCode)){
             return redirect('/userLogin')->with(['success' => 'Your account has been activated, you can login below']);
         }else{
 

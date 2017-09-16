@@ -109,3 +109,5 @@ Route::get('/about', function () {
 Route::get('/gallery-album', function () {
     return view('frontend.gallery');
 });
+
+Route::get('/activate/{email}/{activationCode}', 'ActivationController@activate');

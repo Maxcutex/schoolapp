@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->date('dob');
-            $table->string('email_confirmed');
+            $table->integer('email_confirmed')->default(0);
             $table->integer('is_active')->default(0);
             $table->rememberToken();
             $table->softDeletes();
