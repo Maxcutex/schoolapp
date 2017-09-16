@@ -23,7 +23,7 @@ class CreateTimelinesTable extends Migration
             $table->softDeletes();
             $table->timestamps();
             $table->foreign('child_id')->references('id')->on('children');
-            $table->foreign('activity_id')->reference('id')->on('activities');
+            $table->foreign('activity_id')->references('id')->on('activities');
         });
     }
 
