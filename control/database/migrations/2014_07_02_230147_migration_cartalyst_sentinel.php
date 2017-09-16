@@ -97,7 +97,6 @@ class MigrationCartalystSentinel extends Migration
             $table->increments('id');
             $table->string('username')->unique();
             $table->string('email')->unique();
-            $table->string('emp_id')->unique();
             $table->string('first_name')->nullable();
             $table->string('last_name')->nullable();
             $table->string('password');
@@ -105,10 +104,11 @@ class MigrationCartalystSentinel extends Migration
             $table->date('dob');
             $table->integer('email_confirmed')->default(0);
             $table->integer('is_active')->default(0);
+            $table->string('profilePix')->nullable();
             $table->rememberToken();
             $table->softDeletes();
+            $table->timestamp('last_login')->nullable();
             $table->timestamps();
-
             $table->engine = 'InnoDB';
         });
 

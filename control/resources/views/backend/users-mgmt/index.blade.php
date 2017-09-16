@@ -49,8 +49,8 @@
                 <tr role="row" class="odd">
                   <td class="sorting_1">{{ $user->username }}</td>
                   <td>{{ $user->email }}</td>
-                  <td class="hidden-xs">{{ $user->firstname }}</td>
-                  <td class="hidden-xs">{{ $user->lastname }}</td>
+                  <td class="hidden-xs">{{ $user->first_name }}</td>
+                  <td class="hidden-xs">{{ $user->last_name }}</td>
                   <td>
                     <form class="row" method="POST" action="{{ route('user-management.destroy', ['id' => $user->id]) }}" onsubmit = "return confirm('Are you sure?')">
                         <input type="hidden" name="_method" value="DELETE">
@@ -58,7 +58,7 @@
                         <a href="{{ route('user-management.edit', ['id' => $user->id]) }}" class="btn btn-warning col-sm-3 col-xs-5 btn-margin">
                         Update
                         </a>
-                        @if ($user->username != Auth::user()->username)
+                        @if ($user->username != Sentinel::getUser()->username)
                          <button type="submit" class="btn btn-danger col-sm-3 col-xs-5 btn-margin">
                           Delete
                         </button>

@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
-use App\Models\User;
+use App\User;
 use Illuminate\Support\Facades\Log;
 use Mail;
 use App\Mail\Activate;
+Use Setinel;
 
 
 class UserManagementController extends Controller
@@ -59,22 +60,25 @@ class UserManagementController extends Controller
      */
     public function store(Request $request)
     {
+
         try{
             $this->validateInput($request);
             $user = User::create([
                 'username' => $request['username'],
                 'email' => $request['email'],
                 'password' => bcrypt($request['password']),
-                'firstname' => $request['firstname'],
-                'lastname' => $request['lastname'],
+                'first_name' => $request['firstname'],
+                'last_name' => $request['lastname'],
                 'dob' => $request['dob']
             ]);
+
             $sentinelUser = Sentinel::findById($user->id);
             $activation = Activation::create($sentinelUser);
             $this->sendMail($sentinelUser, $activation->code);
+            dd($request->all());
         }catch (\Exception $e){
             Log::info($e->getMessage());
-            return redirect()->intended('backend/user-management')->withErrors('User creation failed');
+            return redirect()->back()->withErrors('User creation failed');
         }
 
 
@@ -118,16 +122,20 @@ class UserManagementController extends Controller
      */
     public function update(Request $request, $id)
     {
+        //dd($request->all());
         $user = User::findOrFail($id);
         $constraints = [
-            'username' => 'required|max:20',
-            'firstname'=> 'required|max:60',
-            'lastname' => 'required|max:60'
+            'user_name' => 'required|max:20',
+            'first_name'=> 'required|max:60',
+            'last_name' => 'required|max:60',
+            'dob' => 'required'
             ];
         $input = [
-            'username' => $request['username'],
-            'firstname' => $request['firstname'],
-            'lastname' => $request['lastname']
+            'user_name' => $request['username'],
+            'first_name' => $request['firstname'],
+            'last_name' => $request['lastname'],
+            'dob' => $request['dob']
+
         ];
         if ($request['password'] != null && strlen($request['password']) > 0) {
             $constraints['password'] = 'required|min:6|confirmed';
@@ -188,8 +196,8 @@ class UserManagementController extends Controller
             'username' => 'required|max:20',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
-            'firstname' => 'required|max:60',
-            'lastname' => 'required|max:60'
+            'first_name' => 'required|max:60',
+            'last_name' => 'required|max:60'
         ]);
     }
     protected function sendMail($user, $code)

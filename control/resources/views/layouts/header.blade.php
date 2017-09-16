@@ -6,7 +6,7 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini"><b>School</b>App</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg">{{ config('app.name', 'SettlementManagement') }}</span>
+        <span class="logo-lg">{{ config('app.name', 'School Management') }}</span>
     </a>
 
     <!-- Header Navbar -->
