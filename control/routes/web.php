@@ -42,7 +42,7 @@ Route::get('/resetPassword/{email}/{resetToken}', 'PasswordResetController@reset
 Route::post('/resetPassword', 'PasswordResetController@postReset');
 Route::post('/resetEmail', 'PasswordResetController@passwordResetPost');
 
-Route::group(['prefix' => '/backend/','middleware' => 'inputter'], function () {
+//Route::group(['prefix' => '/backend/','middleware' => 'inputter'], function () {
     Route::get('/dashboard', 'DashboardController@index');
     // Route::get('/system-management/{option}', 'SystemMgmtController@index');
     Route::get('/profile', 'ProfileController@index');
@@ -74,7 +74,7 @@ Route::group(['prefix' => '/backend/','middleware' => 'inputter'], function () {
     Route::post('system-management/report/pdf', 'ReportController@exportPDF')->name('report.pdf');
 
     Route::get('avatars/{name}', 'EmployeeManagementController@load');
-});
+//});
 
 Route::get('/', function () {
     return view('frontend.index');

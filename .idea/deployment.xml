@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="schoolApp" uploadOnCheckin="03b208cc-8043-4f09-9c89-5a9fad9a726e">
+    <serverData>
+      <paths name="School">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="schoolApp">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/Maxcutex/schoolapp" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="School" />
+  </component>
+</project>
