@@ -14,7 +14,7 @@ class CreateSchoolSessionsTable extends Migration
     public function up()
     {
         Schema::create('school_sessions', function (Blueprint $table) {
-            $table->increments('id')->primary();
+            $table->increments('id');
             $table->integer('session_year')->unsigned();
             $table->integer('school_id')->unsigned();
             $table->integer('is_active')->default(0);

@@ -14,7 +14,7 @@ class CreateChildrenTable extends Migration
     public function up()
     {
         Schema::create('children', function (Blueprint $table) {
-            $table->increments('id')->primary();
+            $table->increments('id');
             $table->string('child_code')->unique();
             $table->string('firstname');
             $table->string('lastname');
