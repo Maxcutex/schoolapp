@@ -7,8 +7,8 @@ use DB;
 use App\Models\User;
 use Illuminate\Support\Facades\Log;
 use Mail;
-use App\Mail\NewUserEmail;
-use App\Helpers\ActivationClass;
+use App\Mail\Activate;
+
 
 class UserManagementController extends Controller
 {
@@ -69,9 +69,9 @@ class UserManagementController extends Controller
                 'lastname' => $request['lastname'],
                 'dob' => $request['dob']
             ]);
-            $activation = new ActivationClass($user);
-            $code = $activation->create()->getCode();
-            $this->sendMail($user, $code);
+            $sentinelUser = Sentinel::findById($user->id);
+            $activation = Activation::create($sentinelUser);
+            $this->sendMail($sentinelUser, $activation->code);
         }catch (\Exception $e){
             Log::info($e->getMessage());
             return redirect()->intended('backend/user-management')->withErrors('User creation failed');
@@ -194,7 +194,7 @@ class UserManagementController extends Controller
     }
     protected function sendMail($user, $code)
     {
-        $activate = new  NewUserEmail($user, $code);
+        $activate = new  Activate($user, $code);
         Mail::to($user->email)->send($activate);
 
         // Mail::to($event->user->email)->send(new NewUserWelcome($event->user));

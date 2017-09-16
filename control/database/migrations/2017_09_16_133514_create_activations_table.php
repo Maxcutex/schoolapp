@@ -13,14 +13,7 @@ class CreateActivationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('activations', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('user_id')->unsigned();
-            $table->string('code');
-            $table->boolean('completed')->default(0);
-            $table->timestamp('completed_at')->nullable();
-            $table->timestamps();
-        });
+
     }
 
     /**
@@ -30,6 +23,6 @@ class CreateActivationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('activations');
+
     }
 }

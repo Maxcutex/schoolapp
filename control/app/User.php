@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Models;
+namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 
 class User extends Authenticatable
@@ -17,7 +18,6 @@ class User extends Authenticatable
     *
     * @var array
     */
-    protected static $activationsModel = 'App\Models\Activation';
     protected $guarded = ['remember_token'];
 
     protected $fillable = [
@@ -38,14 +38,6 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function guardian (){
-        return $this->hasOne('App\Models\Guardian');
-    }
-
-    public function activations()
-    {
-        return $this->hasMany(static::$activationsModel, 'user_id');
-    }
 
 
 }

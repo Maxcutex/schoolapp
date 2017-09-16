@@ -143,12 +143,8 @@ class LoginController extends Controller
                 'password' => $request->password
                 ])
             ) {
-                $slug = Sentinel::getUser()->roles()->first()->slug;
-                if($slug == 'admin' || $slug == 'admin2' ){
-                    return redirect()->intended('/dashboard');
-                }else{
-                    return redirect()->back()->withErrors('Invalid role');
-                }
+                return redirect()->intended('/dashboard');
+
             }else{
                 return redirect()
                     ->back()
