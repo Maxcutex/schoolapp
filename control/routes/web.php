@@ -43,15 +43,15 @@ Route::post('/resetPassword', 'PasswordResetController@postReset');
 Route::post('/resetEmail', 'PasswordResetController@passwordResetPost');
 
 //Route::group(['prefix' => '/backend/','middleware' => 'inputter'], function () {
-<<<<<<< HEAD
+
     Route::get('/dashboard', 'DashboardController@index');
     // Route::get('/system-management/{option}', 'SystemMgmtController@index');
     Route::get('/profile', 'ProfileController@index');
-=======
+
 Route::get('/dashboard', 'DashboardController@index');
 // Route::get('/system-management/{option}', 'SystemMgmtController@index');
 Route::get('/profile', 'ProfileController@index');
->>>>>>> origin/master
+
 
 Route::post('user-management/search', 'UserManagementController@search')->name('user-management.search');
 Route::resource('user-management', 'UserManagementController');
@@ -79,12 +79,11 @@ Route::post('system-management/report/search', 'ReportController@search')->name(
 Route::post('system-management/report/excel', 'ReportController@exportExcel')->name('report.excel');
 Route::post('system-management/report/pdf', 'ReportController@exportPDF')->name('report.pdf');
 
-<<<<<<< HEAD
+
     Route::get('avatars/{name}', 'EmployeeManagementController@load');
-=======
+
 Route::get('avatars/{name}', 'EmployeeManagementController@load');
->>>>>>> origin/master
-//});
+
 
 Route::get('/', function () {
     return view('schoolFrontend.index');  // return view('frontend.index');
