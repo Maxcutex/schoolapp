@@ -266,13 +266,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/swiper.jquery.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/velocity.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/schoolFrontEnd/assets/js/waypoints/2.0.3/waypoints.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/LaravelBackend1.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/auto_sync.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/composerJson.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LaravelBackend1.iml" afterPath="$PROJECT_DIR$/.idea/LaravelBackend1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/routes/web.php" afterPath="$PROJECT_DIR$/control/routes/web.php" />
     </list>
     <ignored path="Laravel.iws" />
@@ -603,7 +604,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../schoolAppFresh" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -751,7 +752,7 @@
       <workItem from="1504263614885" duration="4481000" />
       <workItem from="1504380261337" duration="905000" />
       <workItem from="1504521524763" duration="3327000" />
-      <workItem from="1505549189963" duration="1080000" />
+      <workItem from="1505549189963" duration="1458000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1504265329761</created>
@@ -778,7 +779,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="549501000" />
+    <option name="totallyTimeSpent" value="549879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
