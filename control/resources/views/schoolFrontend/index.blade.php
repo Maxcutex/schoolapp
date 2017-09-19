@@ -140,8 +140,8 @@
 <section class="classes padding-120">
     <div class="container">
         <div class="section-header">
-            <h3>Our Popular Classes</h3>
-            <p>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
+            <h3>Our Prominent Schools</h3>
+            <p>Below are a few of the prominent schools that are registered with us. Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
@@ -164,7 +164,7 @@
                         </li>
                     </ul>
                     <div class="content">
-                        <h4><a href="class-single.html">Imagination Classes</a></h4>
+                        <h4><a href="class-single.html">School One in Lagos</a></h4>
                         <p><span>Class Time</span> : 08:00 am - 10:00 am</p>
                         <p>Draticaly novate fuly rarched an plications  awesome theme education</p>
                     </div>
@@ -193,7 +193,7 @@
                         </li>
                     </ul>
                     <div class="content">
-                        <h4><a href="class-single.html">Drawing Classes</a></h4>
+                        <h4><a href="class-single.html">School Two in Abuja</a></h4>
                         <p><span>Class Time</span> : 08:00 am - 10:00 am</p>
                         <p>Draticaly novate fuly rarched an plications  awesome theme education</p>
                     </div>
@@ -222,7 +222,7 @@
                         </li>
                     </ul>
                     <div class="content">
-                        <h4><a href="class-single.html">Learning Classes</a></h4>
+                        <h4><a href="class-single.html">School Three in Ibadan</a></h4>
                         <p><span>Class Time</span> : 08:00 am - 10:00 am</p>
                         <p>Draticaly novate fuly rarched an plications  awesome theme education</p>
                     </div>
@@ -239,186 +239,6 @@
 </section><!-- classes -->
 <!-- Classes End here -->
 
-
-<!-- Teachers Start here -->
-<section class="teachers section-notch">
-    <div class="overlay padding-120">
-        <div class="container">
-            <div class="section-header bg">
-                <h3>Meet Our Teachers</h3>
-                <p>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="teacher-item">
-                        <div class="teacher-image">
-                            <img src="{{asset('/schoolFrontend/images/teachers/teacher_01.jpg')}}" alt="teacher image" class="img-responsive">
-                        </div>
-                        <div class="teacher-content">
-                            <h4>Broklyn Doel <span>Sains Teacher</span></h4>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <p>Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
-                            <a href="teacher-details.html">View Portfolio</a>
-                        </div>
-                    </div><!-- teacher item -->
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="teacher-item">
-                        <div class="teacher-image">
-                            <img src="{{asset('/schoolFrontend/images/teachers/teacher_02.jpg')}}" alt="teacher image" class="img-responsive">
-                        </div>
-                        <div class="teacher-content">
-                            <h4>Alex Jhonson <span>Art Teacher</span></h4>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <p>Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
-                            <a href="teacher-details.html">View Portfolio</a>
-                        </div>
-                    </div><!-- teacher item -->
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="teacher-item">
-                        <div class="teacher-image">
-                            <img src="{{asset('/schoolFrontend/images/teachers/teacher_03.jpg')}}" alt="teacher image" class="img-responsive">
-                        </div>
-                        <div class="teacher-content">
-                            <h4>Robot Jhonson <span>Math Teacher</span></h4>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <p>Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
-                            <a href="teacher-details.html">View Portfolio</a>
-                        </div>
-                    </div><!-- teacher item -->
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="teacher-item">
-                        <div class="teacher-image">
-                            <img src="{{asset('/schoolFrontend/images/teachers/teacher_04.jpg')}}" alt="teacher image" class="img-responsive">
-                        </div>
-                        <div class="teacher-content">
-                            <h4>Janaton Doe <span>English Teacher</span></h4>
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                            </ul>
-                            <p>Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.</p>
-                            <a href="teacher-details.html">View Portfolio</a>
-                        </div>
-                    </div><!-- teacher item -->
-                </div>
-            </div><!-- row -->
-        </div><!-- container -->
-    </div><!-- overlay -->
-</section><!-- teacher -->
-<!-- Teachers End here -->
-
-
-<!-- Gallery Start here -->
-<section class="gallery padding-120">
-    <div class="container">
-        <div class="section-header">
-            <h3>Our School Gallery</h3>
-            <p>Rapidiously expedite granular imperatives before economically sound web services. Credibly actualize pandemic strategic themeplatform.</p>
-        </div>
-        <ul class="gallery-menu">
-            <li class="active" data-filter="*">Show all</li>
-            <li data-filter=".branding">Branding</li>
-            <li data-filter=".development">Development</li>
-            <li data-filter=".packing">Packing</li>
-            <li data-filter=".photography">Photography</li>
-        </ul>
-
-        <div class="gallery-items">
-            <div class="gallery-item branding packing">
-                <div class="gallery-image">
-                    <img src="{{asset('/schoolFrontend/images/gallery/gallery_01.jpg')}}" alt="gallery image" class="img-responsive">
-                    <div class="gallery-overlay"><div class="bg"></div></div>
-                    <div class="gallery-content">
-                        <a href="{{asset('/schoolFrontend/images/gallery/gallery_bg_01.jpg')}}" data-rel="lightcase:myCollection"><i class="icon flaticon-expand"></i></a>
-                        <h4>Product Name Here</h4>
-                        <span>By: KidsAcademy Theme</span>
-                    </div>
-                </div>
-            </div><!-- gallery item -->
-            <div class="gallery-item development photography">
-                <div class="gallery-image">
-                    <img src="{{asset('/schoolFrontend/images/gallery/gallery_02.jpg')}}" alt="gallery image" class="img-responsive">
-                    <div class="gallery-overlay"><div class="bg"></div></div>
-                    <div class="gallery-content">
-                        <a href="{{asset('/schoolFrontend/images/gallery/gallery_bg_02.jpg')}}" data-rel="lightcase:myCollection"><i class="icon flaticon-expand"></i></a>
-                        <h4>Product Name Here</h4>
-                        <span>By: KidsAcademy Theme</span>
-                    </div>
-                </div>
-            </div><!-- gallery item -->
-            <div class="gallery-item branding packing">
-                <div class="gallery-image">
-                    <img src="{{asset('/schoolFrontend/images/gallery/gallery_03.jpg')}}" alt="gallery image" class="img-responsive">
-                    <div class="gallery-overlay"><div class="bg"></div></div>
-                    <div class="gallery-content">
-                        <a href="{{asset('/schoolFrontend/images/gallery/gallery_bg_03.jpg')}}" data-rel="lightcase:myCollection"><i class="icon flaticon-expand"></i></a>
-                        <h4>Product Name Here</h4>
-                        <span>By: KidsAcademy Theme</span>
-                    </div>
-                </div>
-            </div><!-- gallery item -->
-            <div class="gallery-item development photography">
-                <div class="gallery-image">
-                    <img src="{{asset('/schoolFrontend/images/gallery/gallery_04.jpg')}}" alt="gallery image" class="img-responsive">
-                    <div class="gallery-overlay"><div class="bg"></div></div>
-                    <div class="gallery-content">
-                        <a href="{{asset('/schoolFrontend/images/gallery/gallery_bg_04.jpg')}}" data-rel="lightcase:myCollection"><i class="icon flaticon-expand"></i></a>
-                        <h4>Product Name Here</h4>
-                        <span>By: KidsAcademy Theme</span>
-                    </div>
-                </div>
-            </div><!-- gallery item -->
-            <div class="gallery-item branding packing">
-                <div class="gallery-image">
-                    <img src="{{asset('/schoolFrontend/images/gallery/gallery_05.jpg')}}" alt="gallery image" class="img-responsive">
-                    <div class="gallery-overlay"><div class="bg"></div></div>
-                    <div class="gallery-content">
-                        <a href="{{asset('/schoolFrontend/images/gallery/gallery_bg_05.jpg')}}" data-rel="lightcase:myCollection"><i class="icon flaticon-expand"></i></a>
-                        <h4>Product Name Here</h4>
-                        <span>By: KidsAcademy Theme</span>
-                    </div>
-                </div>
-            </div><!-- gallery item -->
-            <div class="gallery-item branding packing">
-                <div class="gallery-image">
-                    <img src="{{asset('/schoolFrontend/images/gallery/gallery_06.jpg')}}" alt="gallery image" class="img-responsive">
-                    <div class="gallery-overlay"><div class="bg"></div></div>
-                    <div class="gallery-content">
-                        <a href="{{asset('/schoolFrontend/images/gallery/gallery_bg_06.jpg')}}" data-rel="lightcase:myCollection"><i class="icon flaticon-expand"></i></a>
-                        <h4>Product Name Here</h4>
-                        <span>By: KidsAcademy Theme</span>
-                    </div>
-                </div>
-            </div><!-- gallery item -->
-        </div><!-- gallery items -->
-        <div class="gallery-button"><a href="gallery.html" class="button-default">View More Gallery</a></div>
-    </div><!-- container -->
-</section><!-- gallery -->
-<!-- Gallery End here -->
 
 
 <!-- Achievements Start here -->

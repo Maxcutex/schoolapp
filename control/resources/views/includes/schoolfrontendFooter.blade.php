@@ -30,7 +30,7 @@
                         </li>
                         <li>
                             <div class="image">
-                                <a href="single.html"><img src="images/blog/footer_post_02.jpg" alt="post image" class="img-responsive"></a>
+                                <a href="single.html"><img src="{{asset('/schoolFrontend/images/blog/footer_post_02.jpg')}}" alt="post image" class="img-responsive"></a>
                             </div>
                             <div class="content">
                                 <p><a href="single.html">Corem psum dolor the amectetuer adipiscing...</a></p>
@@ -39,7 +39,7 @@
                         </li>
                         <li>
                             <div class="image">
-                                <a href="single.html"><img src="images/blog/footer_post_03.jpg" alt="post image" class="img-responsive"></a>
+                                <a href="single.html"><img src="{{asset('/schoolFrontend/images/blog/footer_post_03.jpg')}}" alt="post image" class="img-responsive"></a>
                             </div>
                             <div class="content">
                                 <p><a href="single.html">Duis autem iriure dolor in hendrerit esse...</a></p>
@@ -100,7 +100,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <p>&copy; 2017. Designed By <a href="https://themeforest.net/user/labartisan">LabArtisan</a></p>
+                <p>&copy; 2017. Re-Designed By <a href="#">MacSoft</a></p>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <ul class="social-default">

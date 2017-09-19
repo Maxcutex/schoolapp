@@ -98,7 +98,7 @@
 <script src="{{asset('/schoolFrontend/assets/js/circle-progress.min.js')}}"></script>
 
 <!--velocity-->
-<script src="{{asset('/schoolFrontend/assets/js/velocity.min.jss')}}"></script>
+<script src="{{asset('/schoolFrontend/assets/js/velocity.min.js')}}"></script>
 
 <!--quick-view-->
 <script src="{{asset('/schoolFrontend/assets/js/quick-view.js')}}"></script>

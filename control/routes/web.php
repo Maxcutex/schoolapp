@@ -70,6 +70,23 @@ Route::get('/index', function () {
 Route::get('/index2', function () {
     return view('schoolFrontend.index2');
 });
+
+Route::get('/schools/', function () {
+    return view('schoolFrontend.schools');
+});
+Route::get('/features', function () {
+    return view('schoolFrontend.features');
+});
+Route::get('/parents', function () {
+    return view('schoolFrontend.parents');
+});
+Route::get('/pricing', function () {
+    return view('schoolFrontend.pricing');
+});
+Route::get('/resources', function () {
+    return view('schoolFrontend.resources');
+});
+
 Route::get('/contact', function () {
     return view('schoolFrontend.contact');
 });

@@ -15,67 +15,39 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li class="active"><a href="/index">Home Style 01</a></li>
+                    <li >
+                        <a href="/index"   role="button" aria-haspopup="true" aria-expanded="false">Home  </a>
 
-                            <li ><a href="/index2">Home Style 02</a></li>
-                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="/schools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schools & Child Care </a>
+
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about.html">About Style 01</a></li>
-                            <li><a href="about-2.html">About Style 02</a></li>
-                        </ul>
+                        <a href="/features" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features </a>
+
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Classes <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="classes.html">Classes</a></li>
-                            <li><a href="class-single.html">Classes Details</a></li>
-                        </ul>
+                        <a href="parents" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parents</a>
+
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teachers <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="teachers.html">Teachers</a></li>
-                            <li><a href="teacher-details.html">Teacher Details</a></li>
-                        </ul>
+                        <a href="/resources" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources  </a>
+
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="gallery-2.html">Gallery Two</a></li>
-                            <li><a href="event.html">Event</a></li>
-                            <li><a href="event-single.html">Event Details</a></li>
-                            <li><a href="404.html">404 Error</a></li>
-                        </ul>
+                        <a href="/pricing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing  </a>
+
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="blog.html">Blog Page</a></li>
-                            <li><a href="single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="product.html">Product Page</a></li>
-                            <li><a href="product-details.html">Product Details</a></li>
-                            <li><a href="shop-cart.html">Shop Cart</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/signup">Sign Up</a></li>
                     <li><span class="menu-search"><i class="fa fa-search" aria-hidden="true"></i></span></li>
                     <li class="menu_cart dropdown"><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
                         <ul class="dropdown-menu first_dropdown shop_feature">
                             <li class="feature_item">
                                 <div class="featured_image">
-                                    <img src="images/product/menu_cart_01.jpg" alt="Fratured image" class="img-responsive"/>
+                                    <img src="{{asset('/schoolFrontend/images/product/menu_cart_01.jpg')}}" alt="Fratured image" class="img-responsive"/>
                                 </div><!--featured image-->
                                 <div class="featured_content">
                                     <h3><a href="#">Product Title</a> </h3>
@@ -86,7 +58,7 @@
                             </li><!--  feature item -->
                             <li class="feature_item">
                                 <div class="featured_image">
-                                    <img src="images/product/menu_cart_02.jpg" alt="Fratured image" class="img-responsive"/>
+                                    <img src="{{asset('/schoolFrontend/images/product/menu_cart_02.jpg')}}" alt="Fratured image" class="img-responsive"/>
                                 </div><!--featured image-->
                                 <div class="featured_content">
                                     <h3><a href="#">Product Title</a> </h3>
@@ -97,7 +69,7 @@
                             </li><!--  feature item -->
                             <li class="feature_item">
                                 <div class="featured_image">
-                                    <img src="images/product/menu_cart_03.jpg" alt="Fratured image" class="img-responsive"/>
+                                    <img src="{{asset('/schoolFrontend/images/product/menu_cart_03.jpg')}}" alt="Fratured image" class="img-responsive"/>
                                 </div><!--featured image-->
                                 <div class="featured_content">
                                     <h3><a href="#">Product Title</a> </h3>
