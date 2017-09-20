@@ -62,10 +62,12 @@ Route::group(['middleware' => 'basic'], function () {
     Route::get('avatars/{name}', 'EmployeeManagementController@load');
 
 
-    Route::get('/', function () {
-        return view('schoolFrontend.index');  // return view('frontend.index');
-    });
+
 });
+Route::get('/', function () {
+    return view('schoolFrontend.index');  // return view('frontend.index');
+});
+
 Route::get('/index', function () {
     return view('schoolFrontend.index');
 });
