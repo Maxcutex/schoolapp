@@ -64,6 +64,7 @@
     <!-- /.content-wrapper -->
     <!-- Footer -->
     @include('layouts.footer')
+    </div>
     <!-- ./wrapper -->
     <!-- REQUIRED JS SCRIPTS -->
     <!-- jQuery 2.1.3 -->
