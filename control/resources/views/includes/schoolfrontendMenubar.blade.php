@@ -21,11 +21,11 @@
                     </li>
 
                     <li class="dropdown">
-                        <a href="/schools" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schools & Child Care </a>
+                        <a href="schools"  >Schools & Child Care </a>
 
                     </li>
                     <li class="dropdown">
-                        <a href="/features" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Features </a>
+                        <a href="features"  >Features </a>
 
                     </li>
                     <li class="dropdown">
@@ -33,15 +33,15 @@
 
                     </li>
                     <li class="dropdown">
-                        <a href="/resources" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources  </a>
+                        <a href="resources" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources  </a>
 
                     </li>
                     <li class="dropdown">
-                        <a href="/pricing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing  </a>
+                        <a href="pricing" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pricing  </a>
 
                     </li>
-                    <li><a href="/login">Login</a></li>
-                    <li><a href="/signup">Sign Up</a></li>
+                    <li><a href="login">Login</a></li>
+                    <li><a href="signup">Sign Up</a></li>
                     <li><span class="menu-search"><i class="fa fa-search" aria-hidden="true"></i></span></li>
                     <li class="menu_cart dropdown"><span><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
                         <ul class="dropdown-menu first_dropdown shop_feature">

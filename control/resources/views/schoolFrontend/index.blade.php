@@ -482,22 +482,6 @@
 <!-- event End here -->
 
 
-<!-- Subscribe Start here -->
-<section class="subscribe">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-sm-12 col-xs-12">
-                <h3>Join Our Newsletter</h3>
-            </div>
-            <div class="col-md-7 col-sm-12 col-xs-12">
-                <form action="http://demos.codexcoder.com/">
-                    <input type="text" placeholder="Enter your e-mail here">
-                    <input type="submit" value="Subscribe Now">
-                </form>
-            </div>
-        </div><!-- row -->
-    </div><!-- container -->
-</section><!-- subscribe -->
-<!-- Subscribe End here -->
+
 
 @endsection

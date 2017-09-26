@@ -19,7 +19,7 @@ class CreateTimelinesTable extends Migration
             $table->integer('child_id');
             $table->string('activity_description');
             $table->string('activity_image')->nullable();
-            $table->string('activity_loom')->nullable();
+           
             $table->softDeletes();
             $table->timestamps();
             $table->foreign('child_id')->references('id')->on('children');

@@ -37,6 +37,7 @@
     <link href="{{asset('/schoolFrontend/assets/css/flexslider.css')}}" rel="stylesheet">
 
     <!-- Style -->
+    <link href="{{asset('/schoolFrontend/assets/css/icons.css')}}" rel="stylesheet">
     <link href="{{asset('/schoolFrontend/assets/css/grid.css')}}" rel="stylesheet">
     <link href="{{asset('/schoolFrontend/assets/css/style.css')}}" rel="stylesheet">
 
